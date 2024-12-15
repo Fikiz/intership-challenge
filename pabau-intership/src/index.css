@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Film Card */
+  .film-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .film-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .film-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+  }
+  
+  .film-card p {
+    font-size: 1rem;
+    margin: 0.25rem 0;
+  }
+  
+  /* Filters Section */
+  .filters {
+    margin-bottom: 2rem;
+  }
+  
+  .filters label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .filters input[type="text"],
+  .filters select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Loading and No More Messages */
+  .loading-message,
+  .no-more-message {
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+    margin-top: 1rem;
+  }
+  
+  /* Language Toggle Button */
+  .language-toggle {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .language-toggle:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .mb-6 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .container {
+      padding: 0.75rem;
+    }
+  
+    .film-card h3 {
+      font-size: 1.25rem;
+    }
+  
+    .filters input[type="text"],
+    .filters select {
+      padding: 0.4rem;
+    }
+  
+    .language-toggle {
+      width: 100%;
+    }
+  }
+  
